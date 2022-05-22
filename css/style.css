@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 body {
   display: flex;
@@ -13,22 +14,32 @@ body {
 }
 .header {
   padding: 0px 15px;
-  flex: 1 1 70px;
-  font-family: "Roboto", sans-serif;
+  flex: 0 1 50px;
   display: flex;
   align-items: center;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  right: 0;
 }
 .header ul,
 .header a {
   list-style-type: none;
   text-decoration: none;
-  color: #cfddf9;
-  font-size: 18px;
 }
-.logo {
+.header ul,
+.header ul a {
+  color: #cfddf9;
+  font-size: 20px;
+}
+.header a:hover {
+  color: #fd5353;
+}
+.logo,
+.logo a {
   flex: 0 0 50%;
   text-align: center;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 900;
   color: #f9faf8;
 }
@@ -39,4 +50,31 @@ body {
   justify-content: center;
   padding: 12px 20px 12px 40px;
   margin: 0px;
+}
+.footer {
+  flex: 0 0 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: #f6f7f4;
+}
+.intro {
+  flex: 1 1 1000px;
+  background-image: url("../images/pexels-hemil-dhanani-11291986.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+}
+.image-panel {
+  flex: 1 1 500px;
+}
+.quote-panel {
+  flex: 1 1 500px;
+  background-color: #d2d4d5;
+}
+.call-to-action {
+  flex: 1 1 400px;
 }
