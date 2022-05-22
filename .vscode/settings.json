@@ -1,4 +1,6 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "cSpell.words": ["Abhay", "Resumé"]
+  "cSpell.words": ["Abhay", "Québec"],
+  "editor.formatOnSave": true,
+  "[html]": { "editor.defaultFormatter": "vscode.html-language-features" }
 }
