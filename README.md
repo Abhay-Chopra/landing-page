@@ -1,5 +1,15 @@
 # landing-page
 
-### Resources
+## Purpose
 
-Images (home page): https://www.pexels.com/photo/cn-tower-under-the-blue-sky-11291986/ : Hemil Dhanani
+This is strictly a project for creative purposes. The main objective being able to learn and use HTML elements and CSS properties. The main focus of this webpage was to utilize flexbox to have meaningful and responsive design.
+
+### Credits
+
+1. https://www.pexels.com/photo/cn-tower-under-the-blue-sky-11291986/ : Hemil Dhanani
+2. Pexels: lee-robinson
+3. Pexels: juan-rojas
+4. Pexels: alex-conrath
+5. Pexels: andrew-ly
+
+### Live View
