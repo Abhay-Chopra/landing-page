@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This is strictly a project for creative purposes. The main objective being able to learn and use HTML elements and CSS properties. The main focus of this webpage was to utilize flexbox to have meaningful and responsive design.
+This is strictly a project for creative purposes. The main objective being able to learn and use HTML elements and CSS properties. The main focus of this webpage was to utilize flex-box to have meaningful and responsive design.
 
 ### Credits
 
